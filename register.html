@@ -71,16 +71,20 @@
             <h3>Formulario de inscripción</h3>
         </div>
         <form action="https://formspree.io/f/xnqyrdgj" method="POST">
-            <label>
-                Your email:
+            <label id="nombre">
+                Nombre:
+                <input type="text" name="name">
+            </label>
+            <label id="email">
+                Dirección de email:
                 <input type="email" name="email">
             </label>
-            <label>
-                Your message:
-                <textarea name="message"></textarea>
+            <label id="comentario">
+                Comentario:
+                <textarea name="message" rows="3"></textarea>
             </label>
             <!-- your other form fields go here -->
-            <button type="submit">Send</button>
+            <button type="submit">Enviar formulario</button>
         </form>
     </div>
 
