@@ -63,22 +63,24 @@
         <div class="titulo">
             <h3>Formulario de inscripción</h3>
         </div>
-        <form id="form" class="form" action="https://formspree.io/f/xnqyrdgj" method="POST">
-            <!-- NOMBRE -->
-                <label for="name">Nombre:</label>
-                <input name="name" required type="text" id="name" class="form-control" aria-describedby="input">
-            <!-- EMAIL -->
-                <label for="email" class="form-label">Direción de email:</label>
-                <input name="email" required type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                <div id="emailHelp " class="form-text">email@ejemplo.com</div>
-            <!-- COMENTARIO -->
-                <label for="message">Comentario:</label>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            <!-- BOTONES -->
-                <input type="submit" value="Enviar" id="enviar">
-                <input type="reset" value="Reestablecer" id="reestablecer">
+        <form action="https://formspree.io/f/xnqyrdgj" method="POST">
+            <div class="form-group">
+                <label for="comment">Nombre</label>
+                <textarea class="form-control" id="comment" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="email">Dirección de email</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>        
+            <div class="form-group">
+                <label for="comment">Comentario</label>
+                <textarea class="form-control" id="comment" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Enviar formulario</button>
         </form>
     </div>  
+
+    
     
 
     <!-- FOOTER -->
