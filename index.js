@@ -7,7 +7,7 @@ boton.addEventListener("click", cambiarModo);
 
 
 // FORMULARIO 
-const $form = document.getElementById('#form')
+const $form = document.querySelector('#form')
 //const $buttonMailto = document.querySelector('#hiddenahref')
 
 $form.addEventListener('submit', handleSubmit)
