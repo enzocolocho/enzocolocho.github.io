@@ -3,139 +3,140 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNAHUR | Universidad Nacional de Hurlingham</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="imagenes/iso_unahur.png" type="image/icon type">
-    <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Clínica Salud Vital</title>
+    <link rel="icon" href="iconos/hospital.png" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
-<body>
-
-    <!-- HEADER -->
+<body class="bg-dark">
     <header>
-        <div class="header-completo">
-            <!-- LOGO -->
-            <div class="logo">
-                <a href="index.html" class="logo">
-                    <img src="imagenes/logo_unahur.png" alt="Universidad Nacional de Hurlingham">
+        <div class="logo">
+            <h1>Clínica Salud Vital</h1>
+            <a href="index.html">
+                <img src="imagenes/hospital.png" alt="Logo">
+            </a>
+        </div>
+        <div class="menu-opciones">
+            <div class="institucional">
+                <a href="#presentacion">
+                    <h3>Institucional</h3>
                 </a>
-                <p>Universidad Nacional de Hurlingham</p>
             </div>
-            <!-- BARRA DE NAVEGACION -->
-            <div class="barra_navegacion">
-                <nav class="barra_navegacion">
-                    <!-- LISTA DE ITEMS DE NAVEGACION -->
-                    <ul class="items-nav">
-                        <li><a href="">Institucional</a>
-                            <ul>
-                                <li><a href="https://unahur.edu.ar/Institucional/#historia/"
-                                        target="_blank">Historia</a></li>
-                                <li><a href="https://unahur.edu.ar/Institucional/#autoridades/"
-                                        target="_blank">Autoridades</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="">Sedes</a>
-                            <ul>
-                                <li><a href="https://unahur.edu.ar/Institucional/#sedes/" target="_blank">Origone</a>
-                                </li>
-                                <li><a href="https://unahur.edu.ar/Institucional/#sedes/" target="_blank">Vergara</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="">Contacto</a>
-                            <ul>
-                                <li><a href="https://www.instagram.com/unahurlingham/" target="_blank">Instagram</a>
-                                </li>
-                                <li><a href="https://www.facebook.com/UNAHUR" target="_blank">Facebook</a></li>
-                                <li><a href="https://twitter.com/unahurlingham" target="_blank">Twitter</a></li>
-                                <li><a href="https://www.youtube.com/c/UNAHURLINGHAM" target="_blank">Youtube</a></li>
-                            </ul>
-                        </li>
-                        <!--ACA ESTA EL PROBLEMA-->
-                        <li>
-                            <a href="register.html" class="inscripcion">Inscribirse</a>
-                        </li>
-                        <li>
-                            <button id="boton-dark-mode">
-                                <img src="imagenes/luna.png" alt="Modo oscuro">
-                            </button>
-                            <script src="index.js"></script>
-                        </li>
-                    </ul>
-                </nav>
+            <div class="noticias">
+                <a href="#noticias">
+                    <h3>Noticias</h3>
+                </a>
+            </div>
+        </div>
+        <div class="opciones-ingreso">
+            <div class="ingresar">
+                <a href="#login">
+                    <h3>Ingresar</h3>
+                </a>
+            </div>
+            <div class="registrar">
+                <a href="#register">
+                    <h3>Registrarme</h3>
+                </a>
             </div>
         </div>
     </header>
-
-    <!-- BODY -->
-    <div class="cuerpo">
-        <div class="informacion">
-            <p class="quienes-somos">¿Quienes somos?</p>
-            <p class="info">Somos una universidad nacional pública y gratuita ubicada en la localidad
-                de Villa Tesei, Hurlingham. Velamos por brindar la mejor educación pública del país,
-                así también nuestro objetivo es cumplir con pautas medioambientales y de género
-                muy específicas. Contamos con 4 institutos dentro de nuestra universidad.
-            </p>
+    <main>
+        <div class="presentacion" id="presentacion">
+            <h2>Bienvenido a Clínica Salud Vital: tu bienestar es nuestra prioridad.</h2>
+            <p>Ofrecemos atención médica integral y de calidad.</p>
+            <p>Confía en nosotros para cuidarte.</p>
+            <p>¡Tu salud en buenas manos!</p>
         </div>
-        <div class="registrarse">
-            <p class="titulo">Solicitud de ingreso</p>
-            <p class="subtitulo">Inicia tu proceso de inscripción llenando la:</p>
-            <button>
-                <a href="register.html">Solicitar ingreso</a>
-            </button>
-        </div>
-    </div>
-
-    <!-- FOOTER -->
-    <footer>
-        <!-- MAPA -->
-        <div class="mapa">
-            <h5>Cómo llegar:</h5>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13133.49515607149!2d-58.634412250000004!3d-34.61999325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8d055e548bf%3A0x738f85ea67aeabe5!2sUNaHur.%20Universidad%20Nacional%20de%20Hurlingham!5e0!3m2!1ses!2sar!4v1683841335133!5m2!1ses!2sar"
-                width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <!-- CONTACTO -->
-        <div class="datos-contacto">
-            <div class="card">
-                <div class="card-img p-3 text-center">
-                    <img src="imagenes/logo_unahur.png" alt="" width="150px">
-                </div>
-                <div class="car-body text-center">
-                    <div class="card-title">Contacto</div>
-                    <div class="card-text">(011) 2075-5200</div>
-                    <div class="card-text">gestionestudiantil@unahur.edu.ar</div>
-                </div>
+        <div class="noticias" id="noticias">
+            <div class="noticia-1">
+                <img src="imagenes/noticia-1.jpg" alt="Laboratorios nuevos">
+                <a href="">
+                    <h4>Inauguramos nuevos laboratorios.</h4>
+                    <p>En el día de la fecha inauguramos tres nuevos laboratorios para cubrir la creciente demanda.
+                        Éstos cuentan con équipo de última tecnología para brindarles el mejor servicio.</p>
+                </a>
+            </div>
+            <div class="noticia-2">
+                <img src="imagenes/noticia-2.jpg" alt="">
+                <a href="">
+                    <h4>Mejor clínica privada del país.</h4>
+                    <p>El día miércoles pasado fuimos elegidos por la Asociación de Bienestar Argentina (ABA) como la
+                        mejor clínica privada del país entre más de 1200 clínicas de todo el territorio argentino.</p>
+                </a>
+            </div>
+            <div class="noticia-3">
+                <img src="imagenes/noticia-3.jpg" alt="">
+                <a href="">
+                    <h4>Ingresan nuevo equipo tecnólógico oftalmológico.</h4>
+                    <p>En el transcurso de la próxima semana, estarán ingresando nuevos equipos oftalmológicos
+                        provenientes de Francia con la última tecnología del mercado.</p>
+                </a>
+            </div>
+            <div class="noticia-4">
+                <img src="imagenes/noticia-4.jpg" alt="">
+                <a href="">
+                    <h4>Récord de pacientes atendidos en 2022.</h4>
+                    <p>El pasado lunes se dio a conocer la cifra oficial de pacientes en el año 2022: más de 1.2
+                        millones de pacientes mensuales.</p>
+                </a>
             </div>
         </div>
-        <!-- REDES Y VOLVER -->
-        <div class="redes-volver">
-            <a href="index.html">
-                <img src="imagenes/casa.png" alt="Volver al inicio">
-            </a>
-            <a href="https://www.instagram.com/unahurlingham/" target="_blank">
-                <img src="imagenes/instagram.png" alt="Instagram">
-            </a>
-            <a href="https://www.facebook.com/UNAHUR" target="_blank">
-                <img src="imagenes/facebook.png" alt="Facebook">
-            </a>
-            <a href="https://twitter.com/unahurlingham" target="_blank">
-                <img src="imagenes/signo-de-twitter.png" alt="Twitter">
-            </a>
-            <a href="https://www.youtube.com/c/UNAHURLINGHAM" target="_blank">
-                <img src="imagenes/youtube.png" alt="Youtube">
-            </a>
+        <div class="formularios">
+            <div class="login" id="login">
+                <form id="formulario-login">
+                    <label for="" class="titulo">INGRESAR</label>
+                    <div class="mb-3">
+                        <label for="loginUsuario">Usuario</label>
+                        <input type="text" class="form-control" id="loginUsuario" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="loginPassword">Contraseña</label>
+                        <input type="password" class="form-control" id="loginPassword" required>
+                    </div>
+                    <div class="boton">
+                        <input type="submit" id="boton-login" value="Ingresar"></button>
+                    </div>
+                </form>
+            </div>
+            <div class="register" id="register">
+                <form>
+                    <label for="" class="titulo">REGISTRARSE</label>
+                    <div class="mb-3">
+                        <label for="">Usuario</label>
+                        <input type="text" class="form-control" id="registerUsuario" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Contraseña</label>
+                        <input type="password" class="form-control" id="registerPassword" required>
+                    </div>
+                    <div class="boton">
+                        <input type="submit" id="boton-register" value="Registrarse"></button>
+                    </div>
+                </form>
+            </div>
+            <script src="index.js"></script>
+        </div>
+    </main>
+    <footer>
+        <div class="logo-footer">
+            <img src="imagenes/hospital.png" alt="">
+            <p>Clínica Salud Vital</p>
+        </div>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1463.8931204378482!2d-58.448971162133795!3d-34.54522481178087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43ae6018ddf%3A0x3d7f60a75bfa308a!2sEstadio%20M%C3%A2s%20Monumental!5e0!3m2!1ses-419!2sar!4v1687906722646!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contacto">
+            <p>contacto@clinicasaludvital.com</p>
+            <p>(+54) 11 2806 4376</p>
         </div>
     </footer>
-
 </body>
 
 </html>
