@@ -47,7 +47,9 @@
     <main class="bg-dark">
         <script src="paciente.js"></script>
         <div class="bienvenida-paciente">
-            <h2 id="texto-bienvenida-paciente">Bienvenido/a</h2>
+            <div class="texto-bienvenida">
+                <h2 id="texto-bienvenida-paciente">Bienvenido/a</h2>
+            </div>            
         </div>
         <div class="tabla-turnos">
             <h3>Próximos turnos</h3>
@@ -122,7 +124,7 @@
             
             <form class="formulario-reserva" id="formulario-reserva">
                 <div class="mb-3">
-                    <label for="">Especialidad</label>
+                    <label for="">Especialidad <span class="obligatorio">*</span></label>
                     <select class="form-select">
                         <option value="dermatologia">Dermatología</option>
                         <option value="urologia">Urología</option>
@@ -132,7 +134,7 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="">Médico</label>
+                    <label for="">Médico <span class="obligatorio">*</span></label>
                     <select class="form-select">
                         <option value="aliendro">Aliendro, Rodrigo</option>
                         <option value="barco">Barco, Esequiel</option>
@@ -142,19 +144,19 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="">Fecha y hora</label>
+                    <label for="">Fecha y hora <span class="obligatorio">*</span></label>
                     <input type="text" class="form-control" id="fecha-hora" required
                         placeholder="Ejemplo: 01/01/2023 12:00">
                 </div>
                 <div class="mb-3">
-                    <label for="">Email</label>
+                    <label for="">Email <span class="obligatorio">*</span></label>
                     <input type="email" class="form-control" id="email-paciente" required
                         placeholder="email@example.com">
                 </div>
                 <div class="mb-3">
-                    <label for="">Observaciones</label>
+                    <label for="">Observaciones <span class="obligatorio">*</span></label>
                     <textarea class="form-control" id="registerUsuario" rows="2" required
-                        placeholder="Ejemplo: turno pagado"></textarea>
+                        placeholder="Ejemplo: turno pago"></textarea>
                 </div>
                 <input type="submit" class="boton-nuevo-turno" id="boton-nuevo-turno" value="Reservar turno"></input>
                 <script src="paciente.js"></script>

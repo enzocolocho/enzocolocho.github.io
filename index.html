@@ -90,11 +90,11 @@
                 <form id="formulario-login">
                     <label for="" class="titulo">INGRESAR</label>
                     <div class="mb-3">
-                        <label for="loginUsuario">Usuario</label>
+                        <label for="loginUsuario">Usuario <span class="obligatorio">*</span></label>
                         <input type="text" class="form-control" id="loginUsuario" required>
                     </div>
                     <div class="mb-3">
-                        <label for="loginPassword">Contraseña</label>
+                        <label for="loginPassword">Contraseña <span class="obligatorio">*</span></label>
                         <input type="password" class="form-control" id="loginPassword" required>
                     </div>
                     <div class="boton">
@@ -107,14 +107,14 @@
                     <label for="" class="titulo">REGISTRARSE</label>
                     <div class="mb-3">
                         <label for="">Usuario</label>
-                        <input type="text" class="form-control" id="registerUsuario" required>
+                        <input type="text" class="form-control" id="registerUsuario" disabled required>
                     </div>
                     <div class="mb-3">
                         <label for="">Contraseña</label>
-                        <input type="password" class="form-control" id="registerPassword" required>
+                        <input type="password" class="form-control" id="registerPassword" disabled required>
                     </div>
                     <div class="boton">
-                        <input type="submit" id="boton-register" value="Registrarse"></button>
+                        <input type="submit" id="boton-register" value="Registrarse" disabled></button>
                     </div>
                 </form>
             </div>
