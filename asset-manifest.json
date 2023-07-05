@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/colocho-enzo-ciu/static/css/main.9fb024be.css",
+    "main.js": "/colocho-enzo-ciu/static/js/main.eec58362.js",
+    "static/js/787.10e35b5f.chunk.js": "/colocho-enzo-ciu/static/js/787.10e35b5f.chunk.js",
+    "static/media/fondo-db.jpg": "/colocho-enzo-ciu/static/media/fondo-db.4caf7eba25a04c88d861.jpg",
+    "static/media/gohan.png": "/colocho-enzo-ciu/static/media/gohan.44276a0b21a51f8630df.png",
+    "static/media/logo-frikis.png": "/colocho-enzo-ciu/static/media/logo-frikis.0ae94989ebfb80e22969.png",
+    "index.html": "/colocho-enzo-ciu/index.html",
+    "main.9fb024be.css.map": "/colocho-enzo-ciu/static/css/main.9fb024be.css.map",
+    "main.eec58362.js.map": "/colocho-enzo-ciu/static/js/main.eec58362.js.map",
+    "787.10e35b5f.chunk.js.map": "/colocho-enzo-ciu/static/js/787.10e35b5f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fb024be.css",
+    "static/js/main.eec58362.js"
+  ]
+}
